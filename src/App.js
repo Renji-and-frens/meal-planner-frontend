@@ -1,7 +1,7 @@
 function App() {
   return (
     <div className="App">
-      <h1>Welcome to Meal Planner website - milestone 1</h1>
+      <h1>Welcome to Meal Planner website</h1>
     </div>
   );
 }
