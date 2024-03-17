@@ -1,6 +1,6 @@
 # meal-planner-frontend
 
-This project is a React application for Meal Planner. It includes several folders and files that organize the source code, dependencies, and configuration.
+This project is a React application for Meal Planner. It includes several folders and files that organize the source code, dependencies, and configuration. <a href="https://meal-planner01.netlify.app/">Click here for Live Preview</a>
 
 ## Getting Started
 
