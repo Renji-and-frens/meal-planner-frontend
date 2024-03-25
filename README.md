@@ -1,6 +1,7 @@
 # meal-planner-frontend
 
 This project is a React application for Meal Planner. It includes several folders and files that organize the source code, dependencies, and configuration. <a href="https://meal-planner01.netlify.app/">Click here for Live Preview</a>
+The project is currently semi-public - as in it will be public for reading, cloning and forking purposes, however contributions are for internal personnel only. This is due to the lack of experience, manpower and budget to regulate the project safely and cleanly. Really sorry if you are looking to contribute with coding. We plan on opening the project for external contributions later down the line.
 
 ## Getting Started
 
@@ -21,7 +22,7 @@ In the project directory, you can run:
 
 ## Contributing
 
-Contributions are welcome! If you find any bugs or have suggestions for improvement, please open an issue or submit a pull request.
+Code contributions are currently restricted to internal organization team members! If you find any bugs or have suggestions for improvement, please open an issue. The project might be open for code contribution later down the line, after we have stabilized the core team and the project infrastructure.
 
 ---
 
