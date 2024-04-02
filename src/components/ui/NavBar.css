@@ -1,0 +1,96 @@
+.app__navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 2rem;
+  border-bottom: 1px solid black;
+}
+
+.navbar__navigations,
+.navbar__end-nav {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.brandsContainer,
+.navbar__logo {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+}
+
+.hamburger_icon,
+.arrow-down_img {
+  display: none;
+}
+
+.navbar__signin {
+  align-self: center;
+}
+
+/* For medium-sized screens (tablets) */
+@media screen and (max-width: 1250px) {
+  .navbar__start-nav {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 1rem;
+  }
+  .app__navbar,
+  .navbar__navigations {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .app__navbar {
+    padding: 1.5rem 0;
+  }
+
+  .navbar__navigations {
+    gap: 0;
+    width: 100%;
+    margin: 1.5rem 0;
+  }
+
+  /* for header when not toogled */
+  .navbar__navigations,
+  .navbar__end-nav {
+    margin: 0;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: 0.35s ease-out;
+  }
+
+  .navbar__navigations li {
+    padding: 1rem;
+    border-bottom: 1.5px solid lightsteelblue;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .navbar__navigations li:first-child {
+    border-top: 1.5px solid lightsteelblue;
+  }
+
+  .hamburger_icon,
+  .arrow-down_img {
+    display: inline;
+  }
+
+  .icon {
+    margin: auto 0;
+    height: 100%;
+    font-size: larger;
+  }
+
+  .toogled {
+    margin: 1.5rem 0;
+    max-height: 600px;
+    opacity: 1;
+    overflow: visible;
+  }
+}

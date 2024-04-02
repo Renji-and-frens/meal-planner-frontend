@@ -80,3 +80,32 @@ body {
     --font-size-base: 14px; /* decrease font size for smaller screens */
   }
 }
+
+a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.518);
+}
+
+.nav-link {
+  transition: 310ms;
+  border-bottom: 1px solid transparent;
+}
+
+.nav-link:hover {
+  border-color: black;
+  color: black;
+}
+
+/* Button class */
+.button {
+  border: 1px solid var(--color-text);
+  border-radius: 8px;
+  padding: 0.6rem 1.6rem;
+  color: var(--color-text);
+  transition: background-color 0.5s ease-in-out, color 0.5s ease-in;
+}
+
+.button:hover {
+  background-color: var(--color-text);
+  color: black;
+}
