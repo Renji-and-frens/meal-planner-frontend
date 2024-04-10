@@ -43,6 +43,9 @@ img {
   --color-background: #fefae0; /* Cream */
   --color-accent: #faedcd; /* Light Beige */
   --color-text: #d4a373; /* Tan */
+  --color-orange: #fb8500; /* Bright Orange */
+  --color-brown: #bc6c25; /* Darker Brown */
+  --color-green: #606c38; /* Darker Green */
 }
 
 /* Global Typography Styles */
@@ -86,6 +89,10 @@ a {
   color: rgba(0, 0, 0, 0.518);
 }
 
+.sub-text {
+  font-size: 14px;
+}
+
 .nav-link {
   transition: 310ms;
   border-bottom: 1px solid transparent;
@@ -94,6 +101,10 @@ a {
 .nav-link:hover {
   border-color: black;
   color: black;
+}
+
+.horizontal-line {
+  border: 0.5px solid black;
 }
 
 /* Button class */
