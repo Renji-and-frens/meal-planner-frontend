@@ -1,0 +1,71 @@
+.app__footer {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  padding: 2rem;
+  background-color: var(--color-accent);
+}
+
+.newsLetter-section {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 1rem;
+}
+
+.links-section {
+  display: flex;
+  flex-direction: row;
+  flex: 10;
+  justify-content: space-around;
+  align-items: center;
+  flex: 2;
+}
+
+.horizontal-line {
+  margin: 0 1.5rem;
+}
+
+.subscribe-button {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--color-primary);
+  justify-content: space-between;
+  padding: 0.5rem;
+  width: 94%;
+  gap: 1rem;
+  box-shadow: rgba(204, 213, 174, 0.4) 5px 5px,
+    rgba(204, 213, 174, 0.3) 10px 10px, rgba(204, 213, 174, 0.2) 15px 15px;
+}
+
+.subscribe-button input {
+  background-color: transparent;
+  border: 0;
+  font-size: var(--font-size-base);
+  flex: 1;
+}
+
+.subscribe-button input::placeholder {
+  color: black;
+}
+
+.subscribe-button input:focus {
+  outline: none;
+}
+
+@media screen and (max-width: 1250px) {
+  .links-section {
+    flex: 1;
+  }
+  .horizontal-line {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .app__footer {
+    flex-direction: column;
+    gap: 2rem;
+    padding-bottom: 0;
+  }
+}
