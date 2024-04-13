@@ -1,3 +1,7 @@
+.link-title {
+  text-align: center;
+}
+
 .linkView-container {
   min-height: 200px;
   display: flex;

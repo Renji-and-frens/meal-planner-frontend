@@ -30,6 +30,55 @@
   align-self: center;
 }
 
+.navbar__recipe-card {
+  width: 100%;
+  height: 0;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid black;
+  gap: 3rem;
+  position: fixed;
+  background-color: white;
+  opacity: 0;
+  transition: 0.8s;
+  overflow: hidden;
+}
+
+.recipe-navlink_onhover {
+  padding: 2rem;
+  height: auto;
+  opacity: 1;
+}
+
+.navbar__recipe-card .left-section {
+  margin: auto;
+}
+
+.left-section h3 {
+  margin-bottom: 1rem;
+}
+
+.navbar__recipe-card .right-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex: 1;
+}
+
+/* links for recipe card */
+.links-ul {
+  align-items: center;
+}
+
+.recipe-li {
+  display: flex;
+  flex-direction: column;
+}
+
+.extended-recipe_section {
+  display: none;
+}
+
 /* For medium-sized screens (tablets) */
 @media screen and (max-width: 1250px) {
   .navbar__start-nav {
@@ -68,12 +117,38 @@
   .navbar__navigations li {
     padding: 1rem;
     border-bottom: 1.5px solid lightsteelblue;
-    display: flex;
-    justify-content: space-between;
   }
 
   .navbar__navigations li:first-child {
     border-top: 1.5px solid lightsteelblue;
+  }
+
+  .recipe-navlink_section {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .extended-recipe_section {
+    display: flex;
+    justify-content: space-evenly;
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: 0.5s;
+  }
+
+  .recipe-card_extended {
+    height: auto;
+    margin-top: 1rem;
+    margin-top: 1rem;
+    opacity: 1;
+  }
+
+  /* Removing li style from top */
+  .extended-recipe_section li,
+  .extended-recipe_section li:first-child {
+    border: 0px;
+    padding: 0;
   }
 
   .hamburger_icon,
@@ -92,5 +167,17 @@
     max-height: 600px;
     opacity: 1;
     overflow: visible;
+  }
+
+  .extended-recipe {
+    display: flex;
+  }
+
+  .navbar__recipe-card {
+    display: none;
+  }
+
+  .gone {
+    display: none;
   }
 }
