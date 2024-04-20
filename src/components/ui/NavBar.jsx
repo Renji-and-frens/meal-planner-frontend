@@ -185,7 +185,7 @@ const NavBar = () => {
       >
         <section className="left-section">
           <h3>Variety of recipes available to you.</h3>
-          <a href="#">Browse all recipes {"->"}</a>
+          <NavLink to={"/"}>Browse all recipes {"->"}</NavLink>
         </section>
         <section className="right-section">
           <LinkView
