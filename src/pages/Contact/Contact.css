@@ -1,0 +1,22 @@
+.contact-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+p {
+  margin-top: 1rem;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: xx-large;
+}
