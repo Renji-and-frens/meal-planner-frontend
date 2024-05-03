@@ -12,11 +12,11 @@
   flex: 1;
 }
 
-p {
+.contact-page p {
   margin-top: 1rem;
 }
 
-h1 {
+.contact-page h1 {
   font-weight: bold;
   font-size: xx-large;
 }

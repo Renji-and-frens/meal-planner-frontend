@@ -11,14 +11,20 @@ import bitesImg from "../../assets/images/bites.jpg";
 import dessertsImg from "../../assets/images/desserts.jpg";
 
 import "./Home.css";
+import ImageComponent from "../../components/ui/ImageComponent";
+
+import hash from "../../data/blurhash-hash.json";
 
 const Home = () => {
   return (
     <div data-testid="home-page">
       <NavBar />
       <section className="search-section">
+        <div className="background-image">
+          <ImageComponent src={pizzaImg} desc={"pizza"} hash={hash.pizza} />
+        </div>
         <SearchBar />
-        <button>Or click for a random recipe</button>
+        <button className="ran-recipe-btn">Or click for a random recipe</button>
       </section>
       <section className="recipe-of-week-section">
         <div className="left-side">
@@ -27,12 +33,44 @@ const Home = () => {
           <button>Show Me!</button>
         </div>
         <div className="right-side">
-          <img src={foodMakingImg} alt="food prep" className="img1" />
-          <img src={macaronImg} alt="macaron" className="img2" />
-          <img src={pizzaImg} alt="pizza" className="img3" />
-          <img src={sandwichImg} alt="sandwich" className="img4" />
-          <img src={bitesImg} alt="food bites" className="img5" />
-          <img src={dessertsImg} alt="dessert" className="img6" />
+          <div className="img img1">
+            <ImageComponent
+              src={foodMakingImg}
+              desc="food prep"
+              hash={hash.prep}
+            />
+          </div>
+          <div className="img img2">
+            <ImageComponent
+              src={macaronImg}
+              desc="macaron"
+              hash={hash.macaron}
+            />
+          </div>
+          <div className="img img3">
+            <ImageComponent src={pizzaImg} desc="pizza" hash={hash.pizza} />
+          </div>
+          <div className="img img4">
+            <ImageComponent
+              src={sandwichImg}
+              desc="sandwich"
+              hash={hash.sandwich}
+            />
+          </div>
+          <div className="img img5">
+            <ImageComponent
+              src={bitesImg}
+              desc="food bites"
+              hash={hash.bites}
+            />
+          </div>
+          <div className="img img6">
+            <ImageComponent
+              src={dessertsImg}
+              desc="dessert"
+              hash={hash.desserts}
+            />
+          </div>
         </div>
       </section>
       <Footer />

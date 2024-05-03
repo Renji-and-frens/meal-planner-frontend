@@ -1,12 +1,28 @@
 .search-section {
-  background-image: url("../../assets/images/pizza.jpg");
-  background-size: cover;
   display: flex;
+  position: relative;
   flex-direction: column;
   gap: 2rem;
   justify-content: center;
   align-items: center;
   min-height: 25rem;
+}
+
+.background-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.background-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.search-bar,
+.ran-recipe-btn {
+  z-index: 2;
 }
 
 .recipe-of-week-section {
@@ -42,31 +58,41 @@
   margin-top: 1.5rem;
 }
 
-.right-side img {
+.right-side .img {
   max-width: 12rem;
   position: absolute;
   border: 2px brown solid;
   border-radius: 10px;
+  overflow: hidden;
+  /* this removes little space in the bottom*/
+  font-size: 0;
 }
 
 .right-side .img1 {
   left: 6rem;
   z-index: 1;
+  width: 20rem;
+  height: 9.1rem;
 }
 
 .right-side .img2 {
   top: 1rem;
   transform: rotate(-10deg);
+  width: 15rem;
+  height: 8.1rem;
 }
 
 .right-side .img3 {
   left: 7.5rem;
   top: 6rem;
   z-index: 3;
+  width: 14rem;
+  height: 8.1rem;
 }
 
 .right-side .img4 {
   height: 6rem;
+  width: 4.1rem;
   top: 7rem;
   left: 4rem;
   transform: rotate(6deg);
@@ -76,10 +102,13 @@
   left: 14rem;
   top: 7rem;
   z-index: 1;
+  width: 14rem;
+  height: 6.4rem;
 }
 
 .right-side .img6 {
   height: 10rem;
+  width: 6.7rem;
   left: 18rem;
   top: 1rem;
 }
