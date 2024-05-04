@@ -1,11 +1,15 @@
 .app__navbar {
   display: flex;
+  top: 0px;
+  position: sticky;
+  width: 100%;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   padding: 1.5rem 2rem;
   border-bottom: 1px solid black;
   background-color: white;
+  z-index: 10;
 }
 
 .navbar__navigations,
@@ -39,16 +43,19 @@
   border-bottom: 1px solid black;
   gap: 3rem;
   position: fixed;
+  top: 61px;
   background-color: white;
   opacity: 0;
   transition: 0.8s;
   overflow: hidden;
+  z-index: 9;
 }
 
 .recipe-navlink_onhover {
   padding: 2rem;
   height: auto;
   opacity: 1;
+  z-index: 11;
 }
 
 .navbar__recipe-card .left-section {
