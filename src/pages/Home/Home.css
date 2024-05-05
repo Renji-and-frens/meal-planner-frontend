@@ -5,7 +5,7 @@
   gap: 2rem;
   justify-content: center;
   align-items: center;
-  min-height: 25rem;
+  min-height: 28rem;
 }
 
 .background-image {
@@ -111,6 +111,11 @@
   width: 6.7rem;
   left: 18rem;
   top: 1rem;
+}
+
+.new-recipes-section > h1 {
+  text-align: center;
+  margin: 1rem 0;
 }
 
 @media screen and (max-width: 1050px) {

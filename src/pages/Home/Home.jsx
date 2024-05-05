@@ -14,6 +14,35 @@ import "./Home.css";
 import ImageComponent from "../../components/ui/ImageComponent";
 
 import hash from "../../data/blurhash-hash.json";
+import Carousel from "../../components/ui/Carousel";
+
+//temp data for carousel
+const tempData = [
+  {
+    name: "Chicken noodle soup",
+    img: sandwichImg,
+  },
+  {
+    name: "Pizza",
+    img: macaronImg,
+  },
+  {
+    name: "Vegan Queso",
+    img: foodMakingImg,
+  },
+  {
+    name: "creamy-chicken-instant-ramen",
+    img: dessertsImg,
+  },
+  {
+    name: "pancetta",
+    img: bitesImg,
+  },
+  {
+    name: "chicken-and-dumplings",
+    img: pizzaImg,
+  },
+];
 
 const Home = () => {
   return (
@@ -72,6 +101,10 @@ const Home = () => {
             />
           </div>
         </div>
+      </section>
+      <section className="new-recipes-section">
+        <h1>Some of our recipes!</h1>
+        <Carousel arrayData={tempData} />
       </section>
       <Footer />
     </div>
