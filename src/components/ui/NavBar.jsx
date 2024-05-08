@@ -63,7 +63,7 @@ const NavBar = () => {
             className="recipe-li"
           >
             <section className="recipe-navlink_section">
-              <NavLink to="/recipes" className="nav-link">
+              <NavLink to="/recipes/all/all" className="nav-link">
                 Recipes
               </NavLink>
               <HiArrowDown
