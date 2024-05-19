@@ -1,5 +1,7 @@
 import React from "react";
 
+import "./RecipeCard.css";
+
 const RecipeCard = ({ img, title, desc }) => {
   return (
     <div className="app__recipe-card">
@@ -7,8 +9,8 @@ const RecipeCard = ({ img, title, desc }) => {
         <img src={img} alt="" />
       </div>
       <div className="recipe-card__lower-section">
-        <p>{title}</p>
-        <p>{desc}</p>
+        <p className="recipe-card__title">{title}</p>
+        <p className="recipe-card__desc">{desc}</p>
       </div>
     </div>
   );

@@ -1,25 +1,126 @@
-.app__recipes-page {
+.recipes-header {
+  height: 14rem;
+  position: relative;
+}
+
+.recipes-header img {
+  width: 100%;
+  object-fit: cover;
+  object-position: left;
+}
+
+.recipes-header .text-container {
+  position: absolute;
+  top: 20%;
+  left: 2rem;
+}
+
+.recipes-body {
   padding: 0 5rem;
+}
+
+.recipes-body .filter-tab {
+  padding: 2rem 0;
+  border-bottom: 1px solid black;
+}
+
+.filter-tab .filter-clear-btn {
+  padding: 0 4px;
+  color: var(--color-text);
+  transition: border-width 0.5s linear, color 0.5s ease-in;
+  display: none;
+}
+
+.filter-tab .clear-btn-active {
+  display: inline;
+}
+
+.filter-clear-btn .horizontal-line {
+  margin: 0;
+  width: 30%;
+  opacity: 0;
+  transition: 0.4s ease-out;
+  border-color: var(--color-text);
+}
+
+/* for clear btn border animation when hovered */
+.filter-clear-btn > .borderOnHover {
+  opacity: 1;
+  width: 100%;
+}
+
+.filter-tab .selected-filter-tab {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.selected-filter-tab .filter-contain {
+  display: flex;
+  gap: 0.6rem;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-secondary);
+  padding: 0.5rem 1rem;
+  border-radius: 14px;
+  transition: 0.2s ease;
+}
+
+.filter-contain:hover {
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .dropdowns-container {
   display: flex;
   gap: 1.5rem;
   margin-top: 0.5rem;
+  flex-wrap: wrap;
 }
 
 .sub-text {
   color: var(--color-text);
 }
 
-@media screen and (max-width: 1023px) {
-  .app__recipes-page {
+.recipes-showcase .recipes-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+@media screen and (max-width: 1233px) {
+  .recipes-body {
     padding: 0 3rem;
+  }
+
+  .recipes-showcase .recipes-grid {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
-@media screen and (max-width: 767px) {
-  .app__recipes-page {
+@media screen and (max-width: 810px) {
+  .recipes-body {
     padding: 0 1.5rem;
+  }
+
+  .recipes-header {
+    height: 10rem;
+  }
+
+  .recipes-header .text-container {
+    top: 15%;
+    left: 1rem;
+  }
+
+  .recipes-showcase .recipes-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 515px) {
+  .recipes-showcase .recipes-grid {
+    grid-template-columns: 1fr;
   }
 }

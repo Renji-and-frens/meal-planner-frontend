@@ -24,7 +24,7 @@ const Footer = () => {
         <LinkView
           title="Helpful Links"
           linkInfoList={[
-            { text: "Home", url: "" },
+            { text: "Home", url: "/" },
             { text: "Contact Us", url: "" },
             { text: "Newsletters", url: "" },
             { text: "Meal Planner", url: "" },
