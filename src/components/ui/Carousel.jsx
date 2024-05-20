@@ -19,8 +19,8 @@ const Carousel = ({ arrayData }) => {
   return (
     <div className="carousel">
       <Slider {...settings}>
-        {arrayData.map((data) => (
-          <div className="carousel-img-card">
+        {arrayData.map((data, index) => (
+          <div className="carousel-img-card" key={index}>
             <ImageComponent
               src={data.img}
               desc={data.name}

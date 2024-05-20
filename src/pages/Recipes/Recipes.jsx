@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import ImageComponent from "../../components/ui/ImageComponent";
 import Dropdown from "../../components/ui/Dropdown";
 import { useParams } from "react-router-dom";
@@ -67,10 +67,6 @@ const Recipes = () => {
 
   //checks if clear btn is hovered for css animation
   const [isClearHovered, setIsClearHovered] = useState(false);
-
-  useEffect(() => {
-    console.log(selectedFilter);
-  }, [selectedFilter]);
 
   return (
     <>

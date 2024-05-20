@@ -63,7 +63,11 @@ const NavBar = () => {
             className="recipe-li"
           >
             <section className="recipe-navlink_section">
-              <NavLink to="/recipes/all/all" className="nav-link">
+              <NavLink
+                to="/recipes/all/all"
+                className="nav-link"
+                onClick={() => setIsRecipeCardVisible(false)}
+              >
                 Recipes
               </NavLink>
               <HiArrowDown
@@ -94,33 +98,36 @@ const NavBar = () => {
               <LinkView
                 title="Quick Links"
                 linkInfoList={[
-                  { text: "Breakfast", url: "" },
-                  { text: "Lunch", url: "" },
-                  { text: "Dinner", url: "" },
-                  { text: "Dessert", url: "" },
-                  { text: "Drink", url: "" },
+                  { text: "Breakfast", url: `/recipes/category/` },
+                  { text: "Lunch", url: "/recipes/category/" },
+                  { text: "Dinner", url: "/recipes/category/" },
+                  { text: "Dessert", url: "/recipes/category/" },
+                  { text: "Drink", url: "/recipes/category/" },
                 ]}
+                hideNav={setIsToogleActive}
               />
               <div className="horizontal-line" />
               <LinkView
                 title="Popular Categories"
                 linkInfoList={[
-                  { text: "Healthy", url: "" },
-                  { text: "Chicken", url: "" },
-                  { text: "Easy", url: "" },
-                  { text: "Fast", url: "" },
-                  { text: "Rice", url: "" },
+                  { text: "Healthy", url: "/recipes/category/" },
+                  { text: "Chicken", url: "/recipes/category/" },
+                  { text: "Easy", url: "/recipes/category/" },
+                  { text: "Fast", url: "/recipes/category/" },
+                  { text: "Rice", url: "/recipes/category/" },
                 ]}
+                hideNav={setIsToogleActive}
               />
               <div className="horizontal-line" />
               <LinkView
                 title="Recipes by diet"
                 linkInfoList={[
-                  { text: "Vegan", url: "" },
-                  { text: "Vegeterian", url: "" },
-                  { text: "Pescatarian", url: "" },
-                  { text: "Low Carb", url: "" },
+                  { text: "Vegan", url: "/recipes/category/" },
+                  { text: "Vegeterian", url: "/recipes/category/" },
+                  { text: "Pescatarian", url: "/recipes/category/" },
+                  { text: "Low Carb", url: "/recipes/category/" },
                 ]}
+                hideNav={setIsToogleActive}
               />
             </section>
           </li>
@@ -197,6 +204,7 @@ const NavBar = () => {
               { text: "Dessert", url: "/recipes/category/" },
               { text: "Drink", url: "/recipes/category/" },
             ]}
+            hideNav={setIsRecipeCardVisible}
           />
           <div className="horizontal-line" />
           <LinkView
@@ -208,6 +216,7 @@ const NavBar = () => {
               { text: "Fast", url: "/recipes/category/" },
               { text: "Rice", url: "/recipes/category/" },
             ]}
+            hideNav={setIsRecipeCardVisible}
           />
           <div className="horizontal-line" />
           <LinkView
@@ -218,6 +227,7 @@ const NavBar = () => {
               { text: "Pescatarian", url: "/recipes/category/" },
               { text: "Low Carb", url: "/recipes/category/" },
             ]}
+            hideNav={setIsRecipeCardVisible}
           />
         </section>
       </div>

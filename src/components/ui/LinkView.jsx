@@ -3,13 +3,12 @@ import { NavLink } from "react-router-dom";
 
 import "./LinkView.css";
 
-const LinkView = ({ title, linkInfoList }) => {
+const LinkView = ({ title, linkInfoList, hideNav }) => {
   return (
     <div className="linkView-container">
       <p className="link-title">{title}</p>
       <ul className="links-ul">
         {linkInfoList.map((link, index) => {
-          console.log(link.url.replace(/\s/g, "-"));
           return (
             <li key={index}>
               <NavLink
@@ -21,6 +20,11 @@ const LinkView = ({ title, linkInfoList }) => {
                     : `${link.url}`
                 }
                 className={link.text}
+                onClick={() => {
+                  if (hideNav) {
+                    hideNav(false);
+                  }
+                }}
               >
                 {link.text}
               </NavLink>

@@ -55,9 +55,10 @@ const Dropdown = ({
           isActive ? "dropdown-content-active" : ""
         }`}
       >
-        {itemsArr.map((item) => {
+        {itemsArr.map((item, index) => {
           return (
             <div
+              key={index}
               className="dropdown-item"
               onClick={() => handleCheckboxChange(item)}
             >
