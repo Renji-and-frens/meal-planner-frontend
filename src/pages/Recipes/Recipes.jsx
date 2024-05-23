@@ -15,6 +15,14 @@ import NavBar from "../../components/ui/NavBar";
 const Recipes = () => {
   //getting parameters from url
   const { searchType, searchedItem } = useParams();
+  // decode the encoded search item
+  let decodedSearchedItem = "";
+  try {
+    decodedSearchedItem = decodeURIComponent(searchedItem);
+  } catch (e) {
+    console.error(`Failed to decode searched item using ${searchedItem}: `, e);
+    decodedSearchedItem = searchedItem; // Fallback to the original value if decoding fails
+  }
 
   //filter items for dropdown
   const popularSelections = [
@@ -83,7 +91,7 @@ const Recipes = () => {
             <h1>
               {searchType === "all"
                 ? "Discover our amazing recipes"
-                : `${searchedItem.replace("-", " ").toUpperCase()}`}
+                : `${decodedSearchedItem.replace("-", " ").toUpperCase()}`}
             </h1>
           </div>
         </div>
