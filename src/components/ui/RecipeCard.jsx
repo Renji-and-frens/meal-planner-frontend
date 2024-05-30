@@ -2,10 +2,17 @@ import React from "react";
 
 import "./RecipeCard.css";
 import ImageComponent from "./ImageComponent";
+import { useNavigate } from "react-router-dom";
 
-const RecipeCard = ({ img, title, desc }) => {
+const RecipeCard = ({ img, title, desc, recipe }) => {
+  const navigate = useNavigate();
   return (
-    <div className="app__recipe-card">
+    <div
+      className="app__recipe-card"
+      onClick={() =>
+        navigate(`/recipes/view/${recipe.Name}`, { state: recipe })
+      }
+    >
       <div className="recipe-card__upper-section">
         <img src={img} alt="" />
         <ImageComponent

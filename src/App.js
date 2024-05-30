@@ -6,6 +6,7 @@ import About from "./pages/About/About";
 import Signin from "./pages/Signin/Signin";
 import Saved from "./pages/Saved/Saved";
 import Recipes from "./pages/Recipes/Recipes";
+import RecipeView from "./pages/Recipes/RecipeView";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           path="/recipes/:searchType/:searchedItem"
           element={<Recipes />}
         />
+        <Route path="/recipes/view/:name" element={<RecipeView />} />
         {/* Route that does not exists */}
         <Route path="*" element={<h1>The route doesn't exist.</h1>} />
       </Routes>

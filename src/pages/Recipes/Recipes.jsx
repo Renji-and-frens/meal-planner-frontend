@@ -7,6 +7,8 @@ import Footer from "../../components/ui/Footer";
 
 import foodBackground from "../../assets/images/foods-background.jpg";
 
+import exampleArr from "../../data/example.json";
+
 import { RxCross1 } from "react-icons/rx";
 
 import "./Recipes.css";
@@ -164,38 +166,16 @@ const Recipes = () => {
           <section className="recipes-showcase">
             <h1>This is temporary recipe showcase</h1>
             <div className="recipes-grid">
-              <RecipeCard
-                img={foodBackground}
-                title={"food background"}
-                desc={
-                  "sdkmnsklkn ds,fndslfnlsd fsd,fkns,mdfn,mdsf s,dmfnsd,mfnds,mfnm"
-                }
-              />
-              <RecipeCard
-                img={foodBackground}
-                title={"food background"}
-                desc={"recipes is gejshbdaskd anskbdsk ahhhhhh aiiiiii uuuuu"}
-              />
-              <RecipeCard
-                img={foodBackground}
-                title={"food background"}
-                desc={"recipes"}
-              />
-              <RecipeCard
-                img={foodBackground}
-                title={"food background"}
-                desc={"recipes"}
-              />
-              <RecipeCard
-                img={foodBackground}
-                title={"food background"}
-                desc={"recipes"}
-              />
-              <RecipeCard
-                img={foodBackground}
-                title={"food background"}
-                desc={"recipes"}
-              />
+              {exampleArr.map((recipe, index) => (
+                <RecipeCard
+                  img={foodBackground}
+                  title={recipe.Name}
+                  desc={
+                    "sdkmnsklkn ds,fndslfnlsd fsd,fkns,mdfn,mdsf s,dmfnsd,mfnds,mfnm"
+                  }
+                  recipe={recipe}
+                />
+              ))}
             </div>
             <div className="control-nav"></div>
           </section>
