@@ -16,6 +16,7 @@ import sandwichImg from "../../assets/images/sandwich.jpg";
 import macaronImg from "../../assets/images/macaron.jpg";
 import bitesImg from "../../assets/images/bites.jpg";
 import dessertsImg from "../../assets/images/desserts.jpg";
+import convertSeconds from "../../utils/recipeUtils";
 
 const RecipeView = () => {
   const tempData = [
@@ -69,7 +70,9 @@ const RecipeView = () => {
               <div className="time">
                 <GiCampCookingPot style={{ fontSize: "2rem" }} />
                 Cook Time:{" "}
-                <span style={{ fontWeight: "bold" }}>{recipe.CookTime}</span>
+                <span style={{ fontWeight: "bold" }}>
+                  {convertSeconds(recipe.CookTime)}
+                </span>
               </div>
               <div className="serving">
                 <GiSpoon style={{ fontSize: "2rem" }} />
