@@ -26,7 +26,7 @@
   margin: 0 1.5rem;
 }
 
-.subscribe-button {
+.subscribe-container {
   display: flex;
   flex-direction: row;
   background-color: var(--color-primary);
@@ -38,19 +38,23 @@
     rgba(204, 213, 174, 0.3) 10px 10px, rgba(204, 213, 174, 0.2) 15px 15px;
 }
 
-.subscribe-button input {
+.subscribe-container input {
   background-color: transparent;
   border: 0;
   font-size: var(--font-size-base);
   flex: 1;
 }
 
-.subscribe-button input::placeholder {
+.subscribe-container input::placeholder {
   color: black;
 }
 
-.subscribe-button input:focus {
+.subscribe-container input:focus {
   outline: none;
+}
+
+.subscribe-btn:hover {
+  cursor: pointer;
 }
 
 @media screen and (max-width: 1250px) {

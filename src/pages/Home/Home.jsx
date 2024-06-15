@@ -1,5 +1,4 @@
 import React from "react";
-import NavBar from "../../components/ui/NavBar";
 import Footer from "../../components/ui/Footer";
 import SearchBar from "../../components/ui/SearchBar";
 
@@ -47,7 +46,6 @@ const tempData = [
 const Home = () => {
   return (
     <div data-testid="home-page">
-      <NavBar />
       <section className="search-section">
         <div className="background-image">
           <ImageComponent src={pizzaImg} desc={"pizza"} hash={hash.pizza} />

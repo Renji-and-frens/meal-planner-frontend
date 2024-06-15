@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { censoringWords } from "../../utils/profanityFilter"; // Import the profanity filter function
 import "./SearchBar.css";
 
+import { FaSearch } from "react-icons/fa";
+
 const SearchBar = () => {
   const [searchText, setSearchText] = useState("");
 
@@ -20,6 +22,12 @@ const SearchBar = () => {
     setSearchText(event.target.value);
   };
 
+  const handleKeyDown = (event) => {
+    if (event.key === "Enter") {
+      handleSearch();
+    }
+  };
+
   return (
     <div className="search-bar">
       <input
@@ -27,8 +35,11 @@ const SearchBar = () => {
         placeholder="Search any recipe by name, ingredient, style, cuisine type..."
         value={searchText}
         onChange={handleChange}
+        onKeyDown={handleKeyDown}
       />
-      <button onClick={handleSearch}>Search</button>
+      <button onClick={handleSearch}>
+        <FaSearch />
+      </button>
     </div>
   );
 };

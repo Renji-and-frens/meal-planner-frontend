@@ -6,7 +6,6 @@ import { GiSpoon } from "react-icons/gi";
 import { BsBookmarkStar } from "react-icons/bs";
 
 import React from "react";
-import NavBar from "../../components/ui/NavBar";
 import Footer from "../../components/ui/Footer";
 import Carousel from "../../components/ui/Carousel";
 
@@ -50,7 +49,6 @@ const RecipeView = () => {
   const recipe = location.state;
   return (
     <>
-      <NavBar />
       <div className="app__recipe-view">
         <div className="recipe-view">
           <section className="recipe-requirements">

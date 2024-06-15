@@ -12,7 +12,6 @@ import exampleArr from "../../data/example.json";
 import { RxCross1 } from "react-icons/rx";
 
 import "./Recipes.css";
-import NavBar from "../../components/ui/NavBar";
 
 const Recipes = () => {
   //getting parameters from url
@@ -80,7 +79,6 @@ const Recipes = () => {
 
   return (
     <>
-      <NavBar />
       <div className="app__recipes-page">
         <div className="recipes-header">
           <ImageComponent

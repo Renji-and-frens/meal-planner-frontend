@@ -14,9 +14,9 @@ const Footer = () => {
           Subscribe to our newsletter for getting latest recipe and blog updates
           regularly
         </p>
-        <section className="subscribe-button">
+        <section className="subscribe-container">
           <input type="text" placeholder="Enter your email..." />
-          <p>Subscribe {"->"}</p>
+          <p className="subscribe-btn">Subscribe {"->"}</p>
         </section>
       </div>
       <div className="horizontal-line" />

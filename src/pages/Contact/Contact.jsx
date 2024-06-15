@@ -1,6 +1,5 @@
 import React from "react";
 
-import NavBar from "../../components/ui/NavBar";
 import Footer from "../../components/ui/Footer";
 
 import "./Contact.css";
@@ -8,7 +7,6 @@ import "./Contact.css";
 const Contact = () => {
   return (
     <>
-      <NavBar />
       <div data-testid="contact-page" className="contact-page">
         <section className="contact-section">
           <h1>Contact Us</h1>
