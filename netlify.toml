@@ -1,0 +1,7 @@
+# This is configuration for netlify
+# It ensures that all incoming requests to the Netlify site are redirected to the index.html file. This is useful for client-side routing in single-page applications (SPAs), where the routing is handled by the client-side JavaScript.
+
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200 # Redirect with a 200 status code to preserve the original URL in the browser

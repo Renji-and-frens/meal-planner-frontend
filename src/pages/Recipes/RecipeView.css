@@ -1,0 +1,136 @@
+.app__recipe-view {
+  display: flex;
+  flex-direction: column;
+}
+
+.recipe-view {
+  display: flex;
+  flex-direction: row;
+}
+
+.recipe-view li {
+  list-style: inside;
+  margin-left: 1rem;
+}
+
+.recipe-view .recipe-requirements {
+  flex: 0 0 35%;
+  overflow: hidden; /* Prevent scrolling */
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 1rem 3rem;
+  background-color: var(--color-accent);
+}
+
+.recipe-view .recipe-instructions {
+  flex: 1;
+  overflow-y: auto; /* Enable vertical scrolling */
+  padding: 1rem 5rem;
+}
+
+.app__recipe-view .similar-recipes-section {
+  background-color: var(--color-secondary);
+  padding: 1rem 3rem;
+}
+
+.recipe-requirements .name {
+  font-size: xx-large;
+}
+
+.recipe-requirements .div__time-serving {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.div__time-serving .time,
+.div__time-serving .serving {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  border-left: 1px solid rgba(33, 33, 33, 0.335);
+  border-right: 1px solid rgba(33, 33, 33, 0.335);
+  flex: 1 1 auto;
+}
+
+.recipe-requirements .horizontal-line {
+  margin: 0;
+  border-color: rgba(33, 33, 33, 0.335);
+}
+
+.recipe-requirements .tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.recipe-requirements .ingredient {
+  margin-top: 1rem;
+}
+
+.recipe-requirements .author {
+  font-size: medium;
+  border-bottom: 1px solid gray;
+  font-style: italic;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.recipe-instructions .instruction-contain {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.instruction-contain .step {
+  flex: 0 0 auto;
+  font-weight: bold;
+}
+
+.instruction-contain .instruction {
+  flex: 1 1 auto;
+}
+
+.similar-recipes-section > h1 {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+@media screen and (max-width: 1225px) {
+  .recipe-view .recipe-requirements {
+    padding: 1rem 2rem;
+  }
+
+  .recipe-view .recipe-instructions {
+    padding: 1rem 4rem;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  .recipe-view .recipe-requirements {
+    padding: 1rem 1.5rem;
+  }
+
+  .recipe-view .recipe-instructions {
+    padding: 1rem 2.5rem;
+  }
+  .recipe-requirements .name {
+    font-size: x-large;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .recipe-view .recipe-requirements {
+    gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .recipe-view {
+    display: flex;
+    flex-direction: column;
+  }
+}

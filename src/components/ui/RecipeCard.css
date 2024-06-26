@@ -1,0 +1,56 @@
+.app__recipe-card {
+  display: flex;
+  flex-direction: column;
+  height: 19rem;
+  width: 16rem;
+  margin: 0 auto;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 8%;
+  overflow: hidden;
+}
+
+.app__recipe-card .recipe-card__upper-section {
+  height: 64%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.recipe-card__upper-section img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.app__recipe-card .recipe-card__lower-section {
+  padding: 0.6rem 1rem;
+  height: 36%;
+}
+
+.recipe-card__lower-section p {
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* Limit to 2 lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis; /* adds an ellipsis (…) at the end of the truncated text */
+  line-height: 1.5em; /* Adjust based on your font size */
+  max-height: calc(1.5em * 2); /* Ensure it fits 2 lines */
+  width: 100%; /* Adjust width as needed */
+}
+
+.recipe-card__lower-section .recipe-card__title {
+  font-weight: 600;
+  font-size: larger;
+}
+
+@media screen and (max-width: 900px) {
+  .app__recipe-card {
+    width: 14rem;
+    height: 17rem;
+  }
+}
+
+@media screen and (max-width: 515px) {
+  .app__recipe-card {
+    width: 16rem;
+  }
+}

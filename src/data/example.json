@@ -1,23 +1,430 @@
-{
-  "directions": [
-    "Stir together graham cracker crumbs, sugar, and melted butter. Press into a 9x13 inch baking dish.",
-    "Use an electric mixer to beat the cream cheese until smooth. Beat in the sweetened condensed milk, lemon juice, and vanilla extract until well blended and smooth. Fold in whipped topping. Pour filling into crust and smooth the top.",
-    "Top with cherry pie filling. Refrigerate until firm, 2 to 3 hours."
-  ],
-  "ingredients": [
-    "2 1/2 cups graham cracker crumbs",
-    "1/2 cup white sugar",
-    "1/2 cup melted butter",
-    "3 (8 ounce) packages cream cheese, softened",
-    "2 (14 ounce) cans sweetened condensed milk",
-    "1/2 cup lemon juice",
-    "1 teaspoon vanilla extract",
-    "1 (12 ounce) container frozen whipped topping, thawed",
-    "2 (21 ounce) cans cherry pie filling"
-  ],
-  "language": "en-US",
-  "source": "allrecipes.com",
-  "tags": [],
-  "title": "10 Pound Cheesecake",
-  "url": "http://allrecipes.com/recipe/93807/10-pound-cheesecake/"
-}
+[
+  {
+    "Name": "Älplermagronen (Alpine macaroni)",
+    "Description": null,
+    "DateCreated": "2024-04-20T09:58:13.4719197+10:00",
+    "DateLastModified": "2024-04-20T09:58:13.4742838+10:00",
+    "ThumbnailId": null,
+    "AuthorId": null,
+    "OriginId": null,
+    "PrepTime": 0,
+    "CookTime": 1800,
+    "Servings": 4,
+    "Instructions": [
+      "Fry bacon cubes in pot (this pot will be used for everything so choose an appropriately large one).",
+      "Cut onions into half-rings and let them sweat in the same pot. Add some butter if your bacon was not fatty enough.",
+      "Peel potatoes and cut them into ~1 cm/half inch cubes.",
+      "When the onions have become sufficiently cooked, add potatoes.",
+      "Top everything with milk and let the potatoes cook for about 10 minutes.",
+      "Add macaroni and the remaining milk to cover everything. Most of the milk will be absorbed by the macaroni.",
+      "Shred your cheese.",
+      "A minute or two before the macaroni are done, add the shredded cheese into the pot. It should appear a bit too runny in the pot. While cooling it will increase in viscosity quite a bit. If the final texture is not creamy enough, it is most likely due to using the wrong cheese.",
+      "Season to taste. (Needs quite a bit of salt). Nutmeg also works well here.",
+      "Serve with apple sauce. Should be eaten together, not as a dessert."
+    ],
+    "IngredientDetails": [
+      "~150g (1/3 lb) bacon cubes",
+      "3 onions (medium size)",
+      "400g (15 oz) potatoes (firm/waxy)",
+      "1 - 2L (1/4 - 1/2 gal) milk",
+      "400g (15 oz) macaroni (dry weight)",
+      "~150g (1/3 lb) medium soft cheese. Appenzeller works best. Gruyère would be my go-to alternative.",
+      "a jar of apple sauce"
+    ],
+    "LikeCount": 0,
+    "Difficulty": 0,
+    "IsDeleted": false,
+    "IsArchived": false,
+    "IsVariant": false,
+    "Author": {
+      "Name": "alexander-bocken",
+      "AuthorType": 0,
+      "Id": null
+    },
+    "Tags": [
+      {
+        "Name": "'swiss'",
+        "Description": null,
+        "Id": null
+      },
+      {
+        "Name": " 'pork'",
+        "Description": null,
+        "Id": null
+      },
+      {
+        "Name": " 'potato'",
+        "Description": null,
+        "Id": null
+      },
+      {
+        "Name": " 'pasta'",
+        "Description": null,
+        "Id": null
+      }
+    ],
+    "Id": null
+  },
+  {
+    "Name": "Spaghetti aglio e olio",
+    "Description": null,
+    "DateCreated": "2024-04-20T09:58:13.6367501+10:00",
+    "DateLastModified": "2024-04-20T09:58:13.6367522+10:00",
+    "ThumbnailId": null,
+    "AuthorId": null,
+    "OriginId": null,
+    "PrepTime": 0,
+    "CookTime": 900,
+    "Servings": 4,
+    "Instructions": [
+      "Heat a large skillet on medium-high heat, start [cooking the pasta](/pasta).",
+      "Finely slice or mince the garlic and finely chop the parsley.",
+      "Add the oil and garlic to the skillet and gently cook it until it's lightly golden brown.",
+      "Add the red pepper flakes to the skillet and turn down the heat to let its flavor infuse the oil.",
+      "When the pasta has finished cooking, drain it, and reserve at least around a cup of the cooking water.",
+      "Now add the drained pasta with some of the cooking water to the skillet and toss vigorously. The starch in the pasta water will help the sauce emulsify and get it to the right consistency.",
+      "At the very last second add the parsley, to preserve its freshness. Adjust the seasoning to taste if necessary."
+    ],
+    "IngredientDetails": [
+      "1 pound (500g) spaghetti (or similarly shaped pasta)",
+      "1/2 cup (110g) extra virgin olive oil",
+      "5-6 cloves of garlic",
+      "1/4 tsp red pepper flakes",
+      "A bunch of fresh parsley"
+    ],
+    "LikeCount": 0,
+    "Difficulty": 0,
+    "IsDeleted": false,
+    "IsArchived": false,
+    "IsVariant": false,
+    "Author": {
+      "Name": "robert5800",
+      "AuthorType": 0,
+      "Id": null
+    },
+    "Tags": [
+      {
+        "Name": "'italian'",
+        "Description": null,
+        "Id": null
+      },
+      {
+        "Name": " 'pasta'",
+        "Description": null,
+        "Id": null
+      }
+    ],
+    "Id": null
+  },
+  {
+    "Name": "Aljotta",
+    "Description": null,
+    "DateCreated": "2024-04-20T09:58:13.639553+10:00",
+    "DateLastModified": "2024-04-20T09:58:13.6395548+10:00",
+    "ThumbnailId": null,
+    "AuthorId": null,
+    "OriginId": null,
+    "PrepTime": 0,
+    "CookTime": 0,
+    "Servings": 0,
+    "Instructions": [
+      "Cook some rice and set aside. White short-grain is best but other types will do as long as it's not starchy. Don't use arborio or sushi rice.",
+      "Prepare the stock, possibly the day before, by boiling fish and fish bones in a tall stock pot on medium heat for 1-2 hours. It's customary to have loose chunks of fish in the soup so you can boil the fish and separate the meat as it starts to cook. As an example, the head, tail, skin and spine from the [anglerfish fillet recipe](/fried-anglerfish-fillet) were used to make stock, then half a fillet and meat that separated from the offal became part of the soup.",
+      "In a pot, heat some oil on low heat and add in the onions. Saute until translucent.",
+      "Add the garlic, tomato, herbs and salt if desired. Switch to medium heat, stirring occasionally until the water starts to boil.",
+      "Add the fish and let simmer on low heat until the fish are cooked thoroughly, being careful not to break them. Turn the heat off and add the olive oil.",
+      "Take the fish out to be served separately. They are traditionally served topped with olive oil and a squeeze of lemon with steamed vegetables.",
+      "If you are using lemon juice or rice, add them to each serving according to your preference.",
+      "Leave some for tomorrow. It always tastes better the next day."
+    ],
+    "IngredientDetails": [
+      "Fish stock (see 2.)",
+      "Fish, raw",
+      "Onion, roughly chopped",
+      "Garlic, sliced or diced",
+      "Tomatos, chopped",
+      "frying oil/lard",
+      "Extra virgin olive oil",
+      "Marjoram",
+      "Black pepper (optional)",
+      "Mint, small amount (optional, I never use it myself as it's too overpowering)",
+      "Lemon wedge/juice (optional, also overpowering)",
+      "Rice (optional)"
+    ],
+    "LikeCount": 0,
+    "Difficulty": 0,
+    "IsDeleted": false,
+    "IsArchived": false,
+    "IsVariant": false,
+    "Author": {
+      "Name": "shou-ganai",
+      "AuthorType": 0,
+      "Id": null
+    },
+    "Tags": [
+      {
+        "Name": "'fish'",
+        "Description": null,
+        "Id": null
+      },
+      {
+        "Name": " 'soup'",
+        "Description": null,
+        "Id": null
+      },
+      {
+        "Name": " 'mediterranean'",
+        "Description": null,
+        "Id": null
+      }
+    ],
+    "Id": null
+  },
+  {
+    "Name": "Almeirim Stone Soup",
+    "Description": null,
+    "DateCreated": "2024-04-20T09:58:13.6459635+10:00",
+    "DateLastModified": "2024-04-20T09:58:13.6459666+10:00",
+    "ThumbnailId": null,
+    "AuthorId": null,
+    "OriginId": null,
+    "PrepTime": 0,
+    "CookTime": 0,
+    "Servings": 0,
+    "Instructions": [
+      "In a saucepan, boil the kidney beans with the pig's ear, sausages, pork belly, onions, garlic and bay leaf in some water and add a well-washed stone. Season with the olive oil and salt and pepper to taste.",
+      "If necessary, add more water while it’s boiling.",
+      "Once the meat is cooked, take it out and reserve, then add the diced potatoes and cilantro to the pot.",
+      "Let the potatoes cook on medium to high heat for about 30-35 minutes.",
+      "Once the potatoes are well cooked, you can remove the pot from the heat, add the previously chopped meat back in and stir it well.",
+      "Pour into bowls and serve."
+    ],
+    "IngredientDetails": [
+      "well-washed stone",
+      "kidney beans or fresh",
+      "pig's ear (blanched and sliced thin)",
+      "chouriço negro or firm type of blood sausage",
+      "mixed meat chouriço or mediterranean smoked sausage",
+      "pork belly, fatback or bacon",
+      "potatoes, cubed",
+      "onions, chopped",
+      "garlic cloves",
+      "bay leaf",
+      "cilantro/coriander, chopped"
+    ],
+    "LikeCount": 0,
+    "Difficulty": 0,
+    "IsDeleted": false,
+    "IsArchived": false,
+    "IsVariant": false,
+    "Author": {
+      "Name": "artur-mancha",
+      "AuthorType": 0,
+      "Id": null
+    },
+    "Tags": [
+      {
+        "Name": "'portuguese'",
+        "Description": null,
+        "Id": null
+      },
+      {
+        "Name": " 'soup'",
+        "Description": null,
+        "Id": null
+      },
+      {
+        "Name": " 'pork'",
+        "Description": null,
+        "Id": null
+      }
+    ],
+    "Id": null
+  },
+  {
+    "Name": "Apple Chicken",
+    "Description": null,
+    "DateCreated": "2024-04-20T09:58:13.6520442+10:00",
+    "DateLastModified": "2024-04-20T09:58:13.6520481+10:00",
+    "ThumbnailId": null,
+    "AuthorId": null,
+    "OriginId": null,
+    "PrepTime": 600,
+    "CookTime": 2400,
+    "Servings": 4,
+    "Instructions": [
+      "Heat the oven to 200C and prepare an oven tray.",
+      "Mix the chicken with nuez moscada, salt and pepper.",
+      "Remove the center of the apples, fill with nuez moscada and butter.",
+      "Put the chicken in the oven tray.",
+      "Put the chicken, onions and apple in the oven tray.",
+      "Add salt and pepper.",
+      "Cook in the oven for 40 min.",
+      "While the chicken is the oven prepare mushed potatoes. First you boil them until they are soft (keep the skin on). Once they are soft, peel them. Then mush them with a fork and add milk or creme fraiche.",
+      "Add the wine or the cognac. Cook until the chicken is well cooked.",
+      "Enjoy."
+    ],
+    "IngredientDetails": [
+      "Chicken breast or similar.",
+      "Onions.",
+      "Nuez moscada.",
+      "Apples.",
+      "Potatoes.",
+      "Cream or creme fraiche.",
+      "Salt.",
+      "Pepper.",
+      "One glass (33c) of wine or cognac."
+    ],
+    "LikeCount": 0,
+    "Difficulty": 0,
+    "IsDeleted": false,
+    "IsArchived": false,
+    "IsVariant": false,
+    "Author": {
+      "Name": "miraunpajaro",
+      "AuthorType": 0,
+      "Id": null
+    },
+    "Tags": [
+      {
+        "Name": "'spanish'",
+        "Description": null,
+        "Id": null
+      },
+      {
+        "Name": " 'chicken'",
+        "Description": null,
+        "Id": null
+      },
+      {
+        "Name": " 'oven'",
+        "Description": null,
+        "Id": null
+      },
+      {
+        "Name": " 'apple'",
+        "Description": null,
+        "Id": null
+      }
+    ],
+    "Id": null
+  },
+  {
+    "Name": "Apple Pie",
+    "Description": null,
+    "DateCreated": "2024-04-20T09:58:13.6542345+10:00",
+    "DateLastModified": "2024-04-20T09:58:13.6542366+10:00",
+    "ThumbnailId": null,
+    "AuthorId": null,
+    "OriginId": null,
+    "PrepTime": 1800,
+    "CookTime": 2700,
+    "Servings": 8,
+    "Instructions": [
+      "Peel and cut the apples into 1-2 inch strips",
+      "Put the apples in a bowl and mix in the lemon juice, sugar, cinnamon, nutmeg, and cornstarch and let it sit for 15 mins to release water",
+      "Transfer the filling mixture to a sauce pan and reduce the liquid over medium to low heat for around 15 mins, stirring regularly, then turn off the gas",
+      "While the filling is sitting / reducing, start the crust by putting the flour, salt, sugar, and pieces of butter in a food processor",
+      "Run the food processor until it resembles a coarse sand (5-10 seconds) then start dripping in the ice water until the mixture starts to chunk together",
+      "You'll know when it's done if you can pinch the dough with your hand and it sticks together",
+      "Preheat oven to 350°F then start making the pie crust",
+      "Cut the dough in half and roll both halves out with a rolling pin until they are big enough to cover your pie pan (around 9 inch diameter)",
+      "Put the bottom half dough into the pie pan and cut off the excess dough with a knife",
+      "Dump the sauce pan full of the filling into the pie pan and even it out",
+      "Cover the pie filling with the top dough and fold over and tuck in the excess crust",
+      "Use a fork or your fingers to pinch down the top crust to the bottom crust so you don't have air gaps",
+      "Optionally you can now brush on the egg wash to make the crust get a shiny golden brown color when it cooks",
+      "Cut a few slits in the top crust with a knife to give it a nice design and allow for air to release",
+      "Bake 45 minutes at 350°F or until the crust is brown to your liking and the apples are bubbling inside"
+    ],
+    "IngredientDetails": [],
+    "LikeCount": 0,
+    "Difficulty": 0,
+    "IsDeleted": false,
+    "IsArchived": false,
+    "IsVariant": false,
+    "Author": {
+      "Name": "mfed3",
+      "AuthorType": 0,
+      "Id": null
+    },
+    "Tags": [
+      {
+        "Name": "'dessert'",
+        "Description": null,
+        "Id": null
+      },
+      {
+        "Name": " 'pie'",
+        "Description": null,
+        "Id": null
+      },
+      {
+        "Name": " 'sweet'",
+        "Description": null,
+        "Id": null
+      },
+      {
+        "Name": " 'apple'",
+        "Description": null,
+        "Id": null
+      }
+    ],
+    "Id": null
+  },
+  {
+    "Name": "Apple strudel",
+    "Description": null,
+    "DateCreated": "2024-04-20T09:58:13.6569763+10:00",
+    "DateLastModified": "2024-04-20T09:58:13.6569782+10:00",
+    "ThumbnailId": null,
+    "AuthorId": null,
+    "OriginId": null,
+    "PrepTime": 600,
+    "CookTime": 2400,
+    "Servings": 6,
+    "Instructions": [
+      "Peel and cut the apples in thin slices.",
+      "Roll out the puff pastry with a rolling pin.",
+      "Spread the jam over the puff pastry with a spoon.",
+      "Arrange the apple slices over the jam.",
+      "Sprinkle with cinnamon and breadcrumbs.",
+      "Cut tiny pieces of butter and arrange them over the apple slices.",
+      "Roll the puff pastry edges over, overlapping them.",
+      "Bake for around 40 minutes at 180°C (360° F).",
+      "Cover with powdered sugar."
+    ],
+    "IngredientDetails": [
+      "Puff pastry",
+      "Apricot jam (about 300 g | 10 oz)",
+      "3 apples",
+      "Ground cinnamon",
+      "Breadcrumbs / crushed cookies",
+      "Butter (optional)",
+      "Powdered sugar (optional)"
+    ],
+    "LikeCount": 0,
+    "Difficulty": 0,
+    "IsDeleted": false,
+    "IsArchived": false,
+    "IsVariant": false,
+    "Author": {
+      "Name": "\"Lorenzo Iuri\"",
+      "AuthorType": 0,
+      "Id": null
+    },
+    "Tags": [
+      {
+        "Name": "'dessert'",
+        "Description": null,
+        "Id": null
+      },
+      {
+        "Name": " 'breakfast'",
+        "Description": null,
+        "Id": null
+      }
+    ],
+    "Id": null
+  }
+]

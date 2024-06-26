@@ -1,0 +1,16 @@
+.link-title {
+  text-align: center;
+}
+
+.linkView-container {
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.links-ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
