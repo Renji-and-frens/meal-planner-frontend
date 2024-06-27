@@ -1,78 +1,79 @@
-html, body {
+.login-page html, 
+.login-page body {
     height: 100%;
     margin: 0;
     overflow: hidden;
 }
 
-article {
+.login-page {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     height: 100vh;
 }
 
-.section1 {
+.login-page .section1 {
     padding: 0 16vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-div {
+.login-page div {
     padding: 2.5vh;
 }
 
-h1 {
+.login-page h1 {
     font-size: xx-large;
     font-weight: bold;
     margin-bottom: 2.5vh;
 }
 
-form {
+.login-page form {
     margin: 2vh 0;
 }
 
-p.login-field {
+.login-page p.login-field {
     margin: 1.5vh 0;
 }
 
-input {
+.login-page input {
     width: 100%;
     padding: 1rem;
     border-radius: 0.5rem;
 }
 
-p.login-field input {
+.login-page p.login-field input {
     background-color: #F7FBFF;
     border: solid #D4D7E3;
 }
 
-a {
+.login-page a {
     color: #1E4AE9;
     margin: 2vh 0;
 }
 
-#forgot {
+.login-page #forgot {
     float: right;
 }
 
-.center {
+.login-page .center {
     text-align: center;
 }
 
-input.center {
+.login-page input.center {
     background-color: #162D3A;
     color:#F7FBFF;
 }
 
-p.center {
+.login-page p.center {
     margin: 6vh 0;
 }
 
-#copyright {
+.login-page #copyright {
     color: #959CB6;
 }
 
-.section2 {
+.login-page .section2 {
     display: flex;
     justify-content: center;
     align-items: center;
