@@ -1,0 +1,74 @@
+html, body {
+    height: 100%;
+    overflow: hidden;
+}
+
+article {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.section1 {
+    padding: 0 16vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    padding: 1.5vh;
+}
+
+h1 {
+    font-size: xx-large;
+    font-weight: bold;
+    margin-bottom: 2.5vh;
+}
+
+p.signin-field {
+    margin: 1.5vh 0;
+}
+
+input {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+p.signin-field input {
+    background-color: #F7FBFF;
+    border: solid #D4D7E3;
+}
+
+.center {
+    text-align: center;
+}
+
+input.center {
+    background-color: #007074;
+    color: #F7FBFF;
+    border: none;
+    margin: 2vh 0;
+}
+
+a {
+    color: #007074;
+    font-weight: bold;
+}
+
+#subscribe {
+    display: flex;
+    justify-content: center;
+    margin-top: 1vh;
+}
+
+#news-letter {
+    width: initial;
+}
+
+.section2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95%;
+}
