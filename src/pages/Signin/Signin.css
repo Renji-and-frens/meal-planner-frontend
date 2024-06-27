@@ -1,72 +1,73 @@
-html, body {
+.signin-page html, 
+.signin-page body {
     height: 100%;
     overflow: hidden;
 }
 
-article {
+.signin-page {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
-.section1 {
+.signin-page .section1 {
     padding: 0 16vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-div {
+.signin-page div {
     padding: 1.5vh;
 }
 
-h1 {
+.signin-page h1 {
     font-size: xx-large;
     font-weight: bold;
     margin-bottom: 2.5vh;
 }
 
-p.signin-field {
+.signin-page p.signin-field {
     margin: 1.5vh 0;
 }
 
-input {
+.signin-page input {
     width: 100%;
     padding: 0.5rem;
     border-radius: 0.5rem;
 }
 
-p.signin-field input {
+.signin-page p.signin-field input {
     background-color: #F7FBFF;
     border: solid #D4D7E3;
 }
 
-.center {
+.signin-page .center {
     text-align: center;
 }
 
-input.center {
+.signin-page input.center {
     background-color: #007074;
     color: #F7FBFF;
     border: none;
     margin: 2vh 0;
 }
 
-a {
+.signin-page a {
     color: #007074;
     font-weight: bold;
 }
 
-#subscribe {
+.signin-page #subscribe {
     display: flex;
     justify-content: center;
     margin-top: 1vh;
 }
 
-#news-letter {
+.signin-page #news-letter {
     width: initial;
 }
 
-.section2 {
+.signin-page .section2 {
     display: flex;
     justify-content: center;
     align-items: center;
