@@ -2,12 +2,12 @@ import React from "react";
 
 import pastaImg from "../../assets/images/pasta.png";
 
-import "./Signin.css";
+import "./Signup.css";
 import SignupForm from "../../components/form/SignupForm";
 
-const Signin = () => {
+const Signup = () => {
   return (
-    <article className="signin-page">
+    <article className="signup-page">
       <section className="section1">
           <div>
             <h1>Welcome to Nom Nom</h1>
@@ -23,4 +23,4 @@ const Signin = () => {
   );
 };
 
-export default Signin;
+export default Signup;

@@ -1,75 +1,76 @@
-.signin-page html, 
-.signin-page body {
+.signup-page html, 
+.signup-page body {
     height: 100%;
     overflow: hidden;
 }
 
-.signin-page {
+.signup-page {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
+    height: 100vh;
 }
 
-.signin-page .section1 {
+.signup-page .section1 {
     padding: 0 16vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.signin-page div {
+.signup-page div {
     padding: 1.5vh;
 }
 
-.signin-page h1 {
+.signup-page h1 {
     font-size: xx-large;
     font-weight: bold;
     margin-bottom: 2.5vh;
 }
 
-.signin-page p.signin-field {
+.signup-page p.signup-field {
     margin: 1.5vh 0;
 }
 
-.signin-page input {
+.signup-page input {
     width: 100%;
     padding: 0.5rem;
     border-radius: 0.5rem;
 }
 
-.signin-page p.signin-field input {
+.signup-page p.signup-field input {
     background-color: #F7FBFF;
     border: solid #D4D7E3;
 }
 
-.signin-page .center {
+.signup-page .center {
     text-align: center;
 }
 
-.signin-page input.center {
+.signup-page input.center {
     background-color: #007074;
     color: #F7FBFF;
     border: none;
     margin: 2vh 0;
 }
 
-.signin-page a {
+.signup-page a {
     color: #007074;
     font-weight: bold;
 }
 
-.signin-page #subscribe {
+.signup-page #subscribe {
     display: flex;
     justify-content: center;
     margin-top: 1vh;
 }
 
-.signin-page #news-letter {
+.signup-page #news-letter {
     width: initial;
 }
 
-.signin-page .section2 {
+.signup-page .section2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 95%;
+    height: 100%;
 }

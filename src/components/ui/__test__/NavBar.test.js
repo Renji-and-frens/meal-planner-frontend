@@ -29,7 +29,7 @@ describe("NavBar Component", () => {
     const contactLink = screen.getByText(/contact/i);
     expect(contactLink).toBeInTheDocument();
 
-    const signinLink = screen.getByText(/sign in/i);
-    expect(signinLink).toBeInTheDocument();
+    const signupLink = screen.getByText(/sign up/i);
+    expect(signupLink).toBeInTheDocument();
   });
 });

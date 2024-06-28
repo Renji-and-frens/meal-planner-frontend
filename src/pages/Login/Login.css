@@ -65,8 +65,19 @@
     color:#F7FBFF;
 }
 
+.login-page #or {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-page #or hr {
+    width: 40%;
+    height: min-content;
+}
+
 .login-page p.center {
-    margin: 6vh 0;
+    margin: 3vh 0;
 }
 
 .login-page #copyright {
@@ -77,5 +88,5 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 95%;
+    height: 100%;
 }

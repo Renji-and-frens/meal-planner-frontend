@@ -8,7 +8,7 @@ import NavBar from "./components/ui/NavBar";
 
 const Main = () => {
   const location = useLocation();
-  const hideNavBarPaths = ["/login", "/signin"];
+  const hideNavBarPaths = ["/login", "/signup"];
   return (
     <>
       {!hideNavBarPaths.includes(location.pathname.toLowerCase()) && <NavBar />}
