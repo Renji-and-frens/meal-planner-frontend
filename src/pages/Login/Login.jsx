@@ -16,7 +16,11 @@ const Login = () => {
 
           <LoginForm />
 
-          <p className="center">Don't you have an account? <Link to="">Sign up</Link></p>
+          <div id="or">
+            <hr />Or<hr />
+          </div>
+
+          <p className="center">Don't you have an account? <Link to="/signup">Sign up</Link></p>
 
           <p className="center" id="copyright">&copy; 2024 ALL RIGHTS RESERVED</p>
         </div>

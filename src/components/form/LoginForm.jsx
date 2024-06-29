@@ -19,7 +19,7 @@ const LoginForm = () => {
       <Link to="" id="forgot">Forgot Password?</Link>
       <br />
 
-      <input type="submit" value="Sign in" className="center"/>
+      <input type="submit" value="Log in" className="center"/>
     </form>
   );
 };

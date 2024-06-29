@@ -169,13 +169,13 @@ const NavBar = () => {
               <BsTwitter className="icon" />
             </p>
           </div>
-          <div className="navbar__signin">
+          <div className="navbar__signup">
             <NavLink
-              to={"/signIn"}
-              className="signInLink signInBtn button click"
+              to={"/signup"}
+              className="signUpLink signUpBtn button click"
             >
-              {/*<span className="signInBtn button click">Sign In</span>*/}
-              Sign In
+              {/*<span className="signUpBtn button click">Sign Up</span>*/}
+              Sign Up
             </NavLink>
           </div>
         </div>

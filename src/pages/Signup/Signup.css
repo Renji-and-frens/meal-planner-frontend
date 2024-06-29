@@ -1,0 +1,76 @@
+.signup-page html, 
+.signup-page body {
+    height: 100%;
+    overflow: hidden;
+}
+
+.signup-page {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    height: 100vh;
+}
+
+.signup-page .section1 {
+    padding: 0 16vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-page div {
+    padding: 1.5vh;
+}
+
+.signup-page h1 {
+    font-size: xx-large;
+    font-weight: bold;
+    margin-bottom: 2.5vh;
+}
+
+.signup-page p.signup-field {
+    margin: 1.5vh 0;
+}
+
+.signup-page input {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.signup-page p.signup-field input {
+    background-color: #F7FBFF;
+    border: solid #D4D7E3;
+}
+
+.signup-page .center {
+    text-align: center;
+}
+
+.signup-page input.center {
+    background-color: #007074;
+    color: #F7FBFF;
+    border: none;
+    margin: 2vh 0;
+}
+
+.signup-page a {
+    color: #007074;
+    font-weight: bold;
+}
+
+.signup-page #subscribe {
+    display: flex;
+    justify-content: center;
+    margin-top: 1vh;
+}
+
+.signup-page #news-letter {
+    width: initial;
+}
+
+.signup-page .section2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}

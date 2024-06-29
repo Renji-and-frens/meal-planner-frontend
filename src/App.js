@@ -3,7 +3,7 @@ import Login from "./pages/Login/Login";
 import Home from "./pages/Home/Home";
 import Contact from "./pages/Contact/Contact";
 import About from "./pages/About/About";
-import Signin from "./pages/Signin/Signin";
+import Signup from "./pages/Signup/Signup";
 import Saved from "./pages/Saved/Saved";
 import Recipes from "./pages/Recipes/Recipes";
 import RecipeView from "./pages/Recipes/RecipeView";
@@ -14,7 +14,7 @@ function App() {
     <>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/signin" element={<Signin />} />
+        <Route path="/signup" element={<Signup />} />
         <Route path="/login" element={<Login />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
