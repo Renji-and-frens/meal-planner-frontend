@@ -1,4 +1,5 @@
 import React from "react";
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 import pastaImg from "../../assets/images/pasta.png";
@@ -7,7 +8,13 @@ import "./Login.css";
 import LoginForm from "../../components/form/LoginForm";
 import ImageComponent from "../../components/ui/ImageComponent";
 
+import hash from "../../data/blurhash-hash.json";
+
 const Login = () => {
+  useEffect(() => {
+    document.title = "Welcome Back!";
+  }, []);
+
   return (
     <article className="login-page">
       <section className="section1">
@@ -41,7 +48,7 @@ const Login = () => {
         <ImageComponent
           src={pastaImg}
           desc={"pasta"}
-          hash={"L6BfLT140#~816,@rsog9ew4$*S5"}
+          hash={hash.pasta}
         />
       </section>
     </article>

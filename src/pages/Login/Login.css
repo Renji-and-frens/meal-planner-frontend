@@ -1,7 +1,6 @@
 .login-page html, 
 .login-page body {
     height: 100%;
-    margin: 0;
     overflow: hidden;
 }
 
@@ -12,14 +11,14 @@
 }
 
 .login-page .section1 {
-    padding: 0 16vh;
+    padding: 0 8vw;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .login-page div {
-    padding: 2.5vh;
+    padding: 0.5rem;
 }
 
 .login-page h1 {
@@ -89,4 +88,29 @@
     justify-content: center;
     align-items: center;
     height: 100%;
+}
+
+@media screen and (max-width: 1050px) and (orientation: portrait) {
+    .login-page {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        background-image: url("../../assets/images/pasta.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .login-page .section1 {
+        padding: 2vh 4vw;
+        background-color: rgba(254, 250, 224, 0.85); /* don't know how to do this using the global color var */
+    }
+
+    .login-page .section2 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1050px) and (orientation: landscape) {
+    .login-page .section1 {
+        padding: 2vh 4vw;
+    }
 }

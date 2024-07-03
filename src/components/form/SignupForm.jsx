@@ -7,25 +7,25 @@ const SignupForm = () => {
       <p className="signup-field">
         <label htmlFor="name">Full Name</label>
         <br />
-        <input type="text" id="name" required="required" placeholder="John Doe" />
+        <input type="text" id="name" required placeholder="John Doe" />
       </p>
 
       <p className="signup-field">
         <label htmlFor="email">Email</label>
         <br />
-        <input type="email" id="email" required="required" placeholder="Enter your Email here" />
+        <input type="email" id="email" required placeholder="Enter your Email here" />
       </p>
 
       <p className="signup-field">
         <label htmlFor="pwd">Password</label>
         <br />
-        <input type="password" id="pwd" required="required" placeholder="Enter your Password" />
+        <input type="password" id="pwd" required placeholder="Enter your Password" />
       </p>
 
       <p className="signup-field">
         <label htmlFor="re-pwd">Confirm Password</label>
         <br />
-        <input type="password" id="re-pwd" required="required" placeholder="Re-Enter your Password" />
+        <input type="password" id="re-pwd" required placeholder="Re-Enter your Password" />
       </p>
 
       <input type="submit" value="Create Account" className="center" />

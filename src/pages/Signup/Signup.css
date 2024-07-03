@@ -11,14 +11,14 @@
 }
 
 .signup-page .section1 {
-    padding: 0 16vh;
+    padding: 0 8vw;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .signup-page div {
-    padding: 1.5vh;
+    padding: 0.5rem;
 }
 
 .signup-page h1 {
@@ -73,4 +73,33 @@
     justify-content: center;
     align-items: center;
     height: 100%;
+}
+
+@media screen and (max-width: 1050px) and (orientation: portrait) {
+    .signup-page {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        background-image: url("../../assets/images/pasta.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .signup-page .section1 {
+        padding: 2vh 4vw;
+        background-color: rgba(254, 252, 224, 0.85);
+    }
+
+    .signup-page .section2 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1050px) and (orientation: landscape) {
+    .signup-page .section1 {
+        padding: 2vh 3vw;
+    }
+
+    .signup-page h1 {
+        font-size: x-large;
+    }
 }

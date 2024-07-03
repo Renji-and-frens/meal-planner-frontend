@@ -7,13 +7,13 @@ const LoginForm = () => {
       <p className="login-field">
         <label htmlFor="email">Email</label>
         <br />
-        <input type="email" id="email" required="required" placeholder="Example@email.com" />
+        <input type="email" id="email" required placeholder="Example@email.com" />
       </p>
 
       <p className="login-field">
         <label htmlFor="pwd">Password</label>
         <br />
-        <input type="password" id="pwd" required="required" placeholder="At least 8 characters"/>
+        <input type="password" id="pwd" required placeholder="At least 8 characters"/>
       </p>
 
       <Link to="" id="forgot">Forgot Password?</Link>
