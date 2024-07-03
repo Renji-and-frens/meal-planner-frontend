@@ -1,7 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 const SignupForm = () => {
+  const [showPwd, setShowPwd] = useState(false);
+
+  const toggleShowPwd = () => {
+    setShowPwd(!showPwd);
+  };
+
   return (
     <form method="POST">
       <p className="signup-field">
@@ -19,13 +25,33 @@ const SignupForm = () => {
       <p className="signup-field">
         <label htmlFor="pwd">Password</label>
         <br />
-        <input type="password" id="pwd" required placeholder="Enter your Password" />
+        <div className="pwd-container">
+          <input 
+            type={showPwd ? "text" : "password"} 
+            id="pwd" 
+            required 
+            placeholder="Enter your Password" 
+          />
+          <p className="show-pwd" onClick={toggleShowPwd}>
+            {showPwd ? "Hide" : "Show"}
+          </p>
+        </div>
       </p>
 
       <p className="signup-field">
         <label htmlFor="re-pwd">Confirm Password</label>
         <br />
-        <input type="password" id="re-pwd" required placeholder="Re-Enter your Password" />
+        <div className="pwd-container">
+          <input 
+            type={showPwd ? "text" : "password"} 
+            id="re-pwd" 
+            required 
+            placeholder="Re-Enter your Password" 
+          />
+          <p className="show-pwd" onClick={toggleShowPwd}>
+            {showPwd ? "Hide" : "Show"}
+          </p>
+        </div>
       </p>
 
       <input type="submit" value="Create Account" className="center" />

@@ -1,7 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 const LoginForm = () => {
+  const [showPwd, setShowPwd] = useState(false);
+
+  const toggleShowPwd = () => {
+    setShowPwd(!showPwd);
+  };
+
   return (
     <form method="POST">
       <p className="login-field">
@@ -13,7 +19,17 @@ const LoginForm = () => {
       <p className="login-field">
         <label htmlFor="pwd">Password</label>
         <br />
-        <input type="password" id="pwd" required placeholder="At least 8 characters"/>
+        <div className="pwd-container">
+          <input 
+            type={showPwd ? "text" : "password"}
+            id="pwd" 
+            required 
+            placeholder="At least 8 characters"
+          />
+          <p id="show-pwd" onClick={toggleShowPwd}>
+            {showPwd ? "Hide" : "Show"}
+          </p>
+        </div>
       </p>
 
       <Link to="" id="forgot">Forgot Password?</Link>
