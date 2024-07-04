@@ -47,6 +47,9 @@ const Home = () => {
   return (
     <div data-testid="home-page">
       <section className="search-section">
+        <div style={{ display: "inline-block", zIndex: "2" }}>
+          <h1>Welcome to Nom Nom!</h1>
+        </div>
         <div className="background-image">
           <ImageComponent src={pizzaImg} desc={"pizza"} hash={hash.pizza} />
         </div>

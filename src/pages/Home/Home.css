@@ -8,6 +8,48 @@
   min-height: 28rem;
 }
 
+.search-section h1 {
+  color: white;
+  font-size: 2em;
+  font-weight: 600;
+  font-family: monospace;
+  letter-spacing: 2px;
+  border-right: 5px solid transparent;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+  animation: typing 2.8s steps(19) forwards,
+    cursor 550ms steps(19) infinite alternate;
+  animation-delay: 0.8s;
+}
+
+/* Animation for typewriter effect */
+@keyframes cursor {
+  50% {
+    border-color: transparent;
+  }
+}
+
+@keyframes typing {
+  0% {
+    width: 0%;
+    border-color: white;
+  }
+  99.9% {
+    border-color: white;
+  }
+  100% {
+    width: 100%;
+    border-color: transparent;
+  }
+}
+
+@media (prefers-reduced-motion) {
+  .search-section h1 {
+    animation: none;
+  }
+}
+
 .background-image {
   position: absolute;
   width: 100%;
