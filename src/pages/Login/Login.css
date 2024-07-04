@@ -33,6 +33,7 @@
 
 .login-page p.login-field {
     margin: 1.5vh 0;
+    
 }
 
 .login-page input {
@@ -44,6 +45,21 @@
 .login-page p.login-field input {
     background-color: #F7FBFF;
     border: solid #D4D7E3;
+}
+
+.login-page .pwd-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.login-page #show-pwd {
+    position: absolute;
+    right: 1rem;
+    color: #A0A0A0;
+    cursor: pointer;
+    z-index: 1;
 }
 
 .login-page a {

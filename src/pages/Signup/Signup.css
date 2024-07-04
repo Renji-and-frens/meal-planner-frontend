@@ -42,6 +42,21 @@
     border: solid #D4D7E3;
 }
 
+.signup-page .pwd-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.signup-page .show-pwd {
+    position: absolute;
+    right: 1rem;
+    color: #A0A0A0;
+    cursor: pointer;
+    z-index: 1;
+}
+
 .signup-page .center {
     text-align: center;
 }
