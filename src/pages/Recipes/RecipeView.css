@@ -21,12 +21,19 @@
   gap: 1.5rem;
   padding: 1rem 3rem;
   background-color: var(--color-accent);
+  transform: translateX(-80%);
+  opacity: 0;
+  animation: rise-right 0.7s ease-out forwards, fade-in 1s ease-out forwards;
 }
 
 .recipe-view .recipe-instructions {
   flex: 1;
   overflow-y: auto; /* Enable vertical scrolling */
   padding: 1rem 5rem;
+  opacity: 0;
+  transform: translateY(60%);
+  animation: rise-up 0.8s ease-out forwards, fade-in 1s linear forwards;
+  animation-delay: 0.5s;
 }
 
 .app__recipe-view .similar-recipes-section {
@@ -97,6 +104,39 @@
 .similar-recipes-section > h1 {
   text-align: center;
   margin: 1rem 0;
+}
+
+/* Handle reduced motion preferences */
+@media (prefers-reduced-motion) {
+  .recipe-view .recipe-instructions {
+    animation: none;
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  .recipe-view .recipe-requirements {
+    animation: none;
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+
+/* Animation */
+@keyframes fade-in {
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes rise-up {
+  to {
+    transform: translateY(0%);
+  }
+}
+
+@keyframes rise-right {
+  to {
+    transform: translateX(0%);
+  }
 }
 
 @media screen and (max-width: 1225px) {
